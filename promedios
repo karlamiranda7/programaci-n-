@@ -1,0 +1,36 @@
+// procesonumeros.cpp : Defines the entry point for the console application.
+// karla Andrea Alvarez Miranda
+
+#include "stdafx.h"
+#include <iostream >
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	int a,b,c;
+	cout<< "ingrese a: ";
+	cin>> a;
+	cout<< "ingrese b: ";
+	cin>> b;
+	cout<< "ingrese c: ";
+	cin>> c;
+
+	if (! ((a>=0 && a<=10)))
+		   cout<<a<< "no esta en el rango";
+	       cin>>a;
+    if (! ((b>=0 && b<=10)))
+           cout<<b<< "no está en el rango";
+		   cin>>b;
+    if (! ((c>=0 && c<=10)))
+		   cout<<c<< "no está en el rango";
+	       cin>>c;
+    if((a>=0 && a<=10) && (b>=0 && b<=10) && (c>=0 && c<=10)
+		{promedio= (a+b+c)/3;
+		cout<<"el promedio es: " <<promedio;
+		}
+		getch();
+
+	return 0;
+}
