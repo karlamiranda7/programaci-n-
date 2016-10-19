@@ -1,0 +1,39 @@
+// km.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+ 
+void main;
+ {
+	 int fl,registro, cont=0;
+	 float nf,p1,2,pf,pr, promedio=0;
+	 cout<<" ingreso de registro: ";
+	 cin>> registro;
+	 while (id!=-999)
+	 {
+		 cout<<"introduzca p1: ";
+	     cin>>p1;
+	     cout<<"introduzca p2";
+         cin>>p2;
+		 cout<<"introduzca pr";
+		 cin>>pr;
+		 cout<<"introduzca pf".
+	     ci>>pf;
+		 cout<<"ingrese faltas";
+		 cin>>faltas;
+		 if(faltas>10)
+			 pf=0;
+		 nf=((p1+p2)/2)*0.4)*(pr*0.2)+(pf*0.4);
+		 if(nf>51)
+			 cout<<"aprobado";
+		 cout<<"ingrese registro: ";
+		 cin>> registro;
+
+	
+ }
+
+ getch();
