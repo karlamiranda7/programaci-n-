@@ -1,0 +1,40 @@
+// división.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+
+float division (float a, float b);
+ void main();
+ {
+	 float a, b, opcion; //validación de entrada
+	 do {
+		 cout<< "ingrese a: ";
+		 cin>>a;
+	    } while
+	 do{
+		 cout<< "ingrese b: ";
+		 cin>>b;
+	   }while((a||b)>=0);
+	 do{
+		 cout<<"          MENU";
+		 cout<<"1.-suma"<<endl;
+		 cout<<"2.-resta"<<endl;
+		 cout<<"3.-producto"<<endl;
+		 cout<<"4.-division"<<endl;
+		 cout<<"0.-salir"<<endl;
+	     cout<<"elige una opción: ";
+		 cin>>opcion;
+		 switch (opcion) {
+		 case 1: suma=fsuma(float a, float b);
+		     case 2: r= a - b;
+			 case 3: r= a * b;
+			 case 4: r= a / b;
+			 case 0: cout << "salir";break;
+			 default: cout<< "opcion invalida" << endl;
+		 }
+		 cout<< "el resultado es " << r << endl;
+	 } while (opcion !=0);
+	 getch();
+ }
